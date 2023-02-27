@@ -11,6 +11,15 @@
         height: 100px;
         overflow-y: scroll;
     }
+
+    .register {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    br {
+        display: none;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
@@ -21,6 +30,15 @@
     .para-width {
         height: 75px;
         overflow-y: scroll;
+    }
+
+    .register {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    br {
+        display: none;
     }
 }
 
