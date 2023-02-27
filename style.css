@@ -1,5 +1,21 @@
 @media only screen and (max-width:576px) {
-    .btn-outline-primary{
+    .btn-outline-primary {
+        display: none;
+    }
+
+    .see {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .see {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .view {
         display: none;
     }
 }
