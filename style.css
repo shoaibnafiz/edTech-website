@@ -30,6 +30,10 @@ footer p small a {
         text-align: center;
     }
 
+    .trust-company {
+        display: none;
+    }
+
     br {
         display: none;
     }
@@ -52,6 +56,10 @@ footer p small a {
     .register {
         text-align: center;
         flex-direction: column;
+    }
+
+    .trust-company {
+        display: none;
     }
 
     br {
