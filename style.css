@@ -2,6 +2,11 @@
     max-width: 872px;
 }
 
+footer p small a {
+    text-decoration: none;
+    color: gray;
+}
+
 @media only screen and (max-width:576px) {
     .btn-outline-primary {
         display: none;
@@ -28,6 +33,10 @@
     br {
         display: none;
     }
+
+    footer br {
+        display: block;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
@@ -47,6 +56,10 @@
 
     br {
         display: none;
+    }
+
+    footer br {
+        display: block;
     }
 }
 
