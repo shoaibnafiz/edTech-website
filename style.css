@@ -53,14 +53,6 @@ footer p small a {
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
-    .carousel-caption h1 {
-        font-size: 14px;
-    }
-
-    .carousel-caption p {
-        font-size: 10px;
-    }
-
     .see {
         display: none;
     }
